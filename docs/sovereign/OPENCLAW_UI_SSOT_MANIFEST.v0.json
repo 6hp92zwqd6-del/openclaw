@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "project": "openclaw-ui-ssot",
+    "fork": "6hp92zwqd6-del/openclaw",
+    "status": "starter",
+    "version": "0.1.0",
+    "classification": "working",
+    "notes": [
+      "Testing Corridor is a working/index surface and not the SSOT.",
+      "Private Notion objects remain authoritative for connector, pattern, governance, and SRepo state.",
+      "Public repo artifacts must not embed private workspace URLs."
+    ]
+  },
+  "corridor": {
+    "name": "TESTING CORRIDOR — OpenClaw + MoltShit",
+    "role": "working-index",
+    "authoritative": false,
+    "status": "active"
+  },
+  "connectorRecord": {
+    "registry": "Connector Registry — SSOT (Rebuild + Reconnect)",
+    "record": "ChatGPT (OpenAI)",
+    "authoritative": true,
+    "provider": "OpenAI",
+    "runtimeSurface": "ChatGPT connector",
+    "status": "to-bind",
+    "fields": {
+      "connectorId": null,
+      "authMode": null,
+      "transportMode": null,
+      "reconnectState": null,
+      "trustBoundary": null,
+      "testReadiness": null
+    }
+  },
+  "patternStack": {
+    "registry": "Ecosystem Capability Pattern Stack Registry",
+    "authoritative": true,
+    "status": "to-bind",
+    "fields": {
+      "patternStackId": null,
+      "patternName": "OpenClaw UI SSOT",
+      "family": "Sovereign Capability Pattern Stack",
+      "requiredPrimitives": [],
+      "requiredReceipts": [],
+      "inheritedControls": []
+    }
+  },
+  "governanceStandard": {
+    "name": "Enterprise Standard — Pattern Stack Governance",
+    "authoritative": true,
+    "status": "required",
+    "fields": {
+      "standardVersion": null,
+      "mandatoryRules": [
+        "Where is not the SSOT.",
+        "Governance, connector, pattern, and SRepo authority remain separated.",
+        "Testing and promotion must remain distinct from working state."
+      ],
+      "promotionRequired": true
+    }
+  },
+  "srepoBinding": {
+    "name": "Sovereign Repository — Capability Pattern Stacks",
+    "authoritative": true,
+    "status": "to-bind",
+    "fields": {
+      "bindingId": null,
+      "sourceStack": null,
+      "localImplementationTarget": "OpenClaw Control UI",
+      "derivativeArtifacts": [],
+      "promotionTargets": []
+    }
+  },
+  "uiContract": {
+    "surface": "OpenClaw Control UI",
+    "implementation": {
+      "framework": "Lit",
+      "build": "pnpm ui:build",
+      "entrypoint": "ui/src/ui/app.ts"
+    },
+    "slices": [
+      {
+        "id": "S1",
+        "name": "Control Tower",
+        "mode": "read-only",
+        "status": "planned"
+      },
+      {
+        "id": "S2",
+        "name": "Connector Registry",
+        "mode": "read-only",
+        "status": "planned"
+      },
+      {
+        "id": "S3",
+        "name": "Pattern Stack Registry",
+        "mode": "read-only",
+        "status": "planned"
+      },
+      {
+        "id": "S4",
+        "name": "Governance Standard",
+        "mode": "read-only",
+        "status": "planned"
+      },
+      {
+        "id": "S5",
+        "name": "SRepo Wiring",
+        "mode": "read-only",
+        "status": "planned"
+      },
+      {
+        "id": "S6",
+        "name": "Test + Validation",
+        "mode": "read-only",
+        "status": "planned"
+      }
+    ]
+  },
+  "validation": {
+    "status": "not-started",
+    "gates": [
+      {
+        "id": "G1",
+        "name": "Corridor is index only",
+        "result": "pending"
+      },
+      {
+        "id": "G2",
+        "name": "Connector record explicitly bound",
+        "result": "pending"
+      },
+      {
+        "id": "G3",
+        "name": "Pattern stack explicitly bound",
+        "result": "pending"
+      },
+      {
+        "id": "G4",
+        "name": "Governance standard visible across slices",
+        "result": "pending"
+      },
+      {
+        "id": "G5",
+        "name": "SRepo derivation traceable",
+        "result": "pending"
+      },
+      {
+        "id": "G6",
+        "name": "Testing separated from working state",
+        "result": "pending"
+      }
+    ]
+  }
+}
